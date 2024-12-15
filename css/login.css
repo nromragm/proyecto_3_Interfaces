@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Inter", sans-serif;
+    background: url("../img/arcane2_desktop_default_2x.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+  
+
+
+/* Formulario */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-image: url("../img/arcane2_desktop_container_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e293b;
+    color: #fff;
+}
+
+form input::placeholder {
+    color: #94a3b8;
+}
+
+/* Botones sociales */
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-btn {
+    flex: 1;
+    margin: 0 5px 0;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e293b;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-bottom: none;
+    max-height: 40px;
+}
+
+.social-btn img {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-btn:hover {
+    filter: brightness(1.3); /* Incrementa el brillo al pasar el mouse */
+}
+
+/* Estilo de cada botón social */
+.facebook { background-color: #3b5998; }
+.google { background-color: #db4437; }
+.apple { background-color: #333333; }
+.xbox { background-color: #107c10; }
+.playstation { background-color: #003791; }
+
+/* Botón de enviar */
+.submit-btn {
+    background-color:rgb(77, 101, 172);
+    opacity: 15%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 35%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn img {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn:hover {
+    background-color: #3b82f6;
+}
+
+/* Enlace de iniciar sesión */
+.login-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #94a3b8;
+    transition: color 0.3s ease;
+}
+
+.login-link:hover {
+    color: #fff;
+}

@@ -1,0 +1,154 @@
+/* Contenedor general */
+.blade {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #0A1428; /* Fondo de respaldo */
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Altura ajustable */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fondo desenfocado */
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.backdrop-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor */
+  filter: blur(10px); /* Efecto de desenfoque */
+}
+
+/* Imagen nítida superpuesta */
+.banner-content {
+  position: relative;
+  z-index: 2; /* Encima del fondo desenfocado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image {
+  margin-top: 10%;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px; /* Opcional */
+}
+
+/* Contenido debajo del banner */
+.blade-content {
+  margin-top: 10%;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.blade-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blade-content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.texto {
+  font-size: medium;
+}
+
+body {
+  background-color: #0A1428;
+}
+
+hr {
+  border-top: 2px solid gray;
+  padding-bottom: 2px;
+  border-bottom: 1px solid gray ;
+  max-width: 70%;
+  border-left: none;
+  border-right: none;
+}
+
+.section-info {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.info-text {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+.texto {
+  margin-top: 30px;
+}
+
+
+/* Sección de "Los platos fuertes de la versión" */
+.patch-highlights {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid gray;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Título */
+.section-title {
+  margin-top: 50px;
+  color: white;
+  margin-left: 25%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* Contenedor de los detalles */
+.highlights-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Imagen de las notas del parche */
+.patch-details .patch-image {
+  padding: auto;
+  width: 100%;
+  max-width: 1000px;
+  object-fit: cover;
+}
+
+/* Descripción */
+.patch-description {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 900px;
+  padding: 0 1rem;
+}
