@@ -1,8 +1,6 @@
 main {
-    background: url('../img/404.webp') ;
-    background-size: cover;
-    flex: 1;
     min-height: 100vh;
+    background-color: #111111;
 }
 .container {
     text-align: center;
@@ -10,8 +8,11 @@ main {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .button {
-    margin-top: 20px;
-    padding: 10px 20px;
+    position: absolute;
+    z-index: 2;
+    top: 1005px;
+    left: 46%;
+    padding: 15px 25px;
     font-size: 18px;
     color: white;
     background-color: #4CAF50;
@@ -21,6 +22,7 @@ main {
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .button:hover {
     background-color: #45a049;
 }
