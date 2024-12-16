@@ -1,12 +1,17 @@
+/* Estilos para el contenedor principal */
 main {
     min-height: 100vh;
     background-color: #111111;
 }
+
+/* Estilos para el contenedor de texto */
 .container {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
+/* Estilos para el botón */
 .button {
     position: absolute;
     z-index: 2;
@@ -23,6 +28,8 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+/* Estilos para el estado del botón cuando el cursor pasa sobre él (hover) */
 .button:hover {
     background-color: #45a049;
 }

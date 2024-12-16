@@ -1,47 +1,44 @@
-
-/* */
-
-
 /* General */
 .main-content {
-    margin: 0 auto;
-    color: #fff;
+  margin: 0 auto;
+  color: #fff;
 }
 
 /* Hero Section */
 .hero {
-    position: relative;
-    text-align: center;
-    background-image: url("../img/fondo_lol.jpeg");
-    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat;
-    min-height: 500px;
+  position: relative;
+  text-align: center;
+  background-image: url("../img/fondo_lol.jpeg");
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  min-height: 500px;
 }
 
 .hero-image {
-    position: absolute;
-    top: 30%;
-    left: 42%;
-    width: auto;
-    height: auto;
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  width: auto;
+  height: auto;
 }
 
 .hero-overlay {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
+/* Estilo para el botón de la sección hero */
 .play-button {
-    background-color: #C8AA6E;
-    color: #000;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
+  background-color: #C8AA6E;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 /* Noticias destacadas */
@@ -115,151 +112,149 @@
 
 
 .button {
-    background-color: #C8AA6E;
-    color: #000;
-    padding: 10px 20px;
-    border: none;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #C8AA6E;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #D3BB8B;
+  background-color: #D3BB8B;
 }
    
 
 /* Sección del campeón */
 .champion-intro {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fab36e5433f9457968d5f4e5c2ebed38fdd4b17c-656x657.png?auto=format&fit=fill&q=80&w=656");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fab36e5433f9457968d5f4e5c2ebed38fdd4b17c-656x657.png?auto=format&fit=fill&q=80&w=656");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   
-  .champion-content {
-    display: flex;
-    width: 100%;
-  }
+.champion-content {
+  display: flex;
+  width: 100%;
+}
   
-  /* Columna Izquierda */
-  .champion-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+/* Columna Izquierda */
+.champion-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 
-  }
+}
   
-  .champion-subtitle {
-    font-size: 1rem;
-    color: #0A1428;
-    letter-spacing: 1px;
-  }
+.champion-subtitle {
+  font-size: 1rem;
+  color: #0A1428;
+  letter-spacing: 1px;
+}
   
-  .champion-name {
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #0A1428;
-    margin: 0;
-  }
+.champion-name {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #0A1428;
+  margin: 0;
+}
   
-  .champion-description {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 50px;
-  }
+.champion-description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 50px;
+}
   
 
   
-  .champion-button:hover {
-    background-color: #e0b76a;
-  }
+.champion-button:hover {
+  background-color: #e0b76a;
+}
   
-  /* Roles */
-  .roles-icons {
-    display: flex;
-    gap: 1rem;
-    font-size: 0.9rem;
-    color: #8c8c8c;
-  }
+/* Roles */
+.roles-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #8c8c8c;
+}
   
-  .roles-icons span {
-    margin-top: 20px;
-    border-bottom: 1px solid #b89c5a;
-  }
+.roles-icons span {
+  margin-top: 20px;
+  border-bottom: 1px solid #b89c5a;
+}
   
-  /* Columna Derecha */
-  .champion-right {
-    flex: 1;
-    text-align: center;
-  }
+/* Columna Derecha */
+.champion-right {
+  flex: 1;
+  text-align: center;
+}
   
-  .champion-image {
-    width: 100%;
-    max-width: 300px;
-    object-fit: contain;
-  }
+.champion-image {
+  width: 100%;
+  max-width: 300px;
+  object-fit: contain;
+}
   
-  .champion-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    color: #0A1428;
-    font-style: italic;
-  }
+.champion-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #0A1428;
+  font-style: italic;
+}
   
-  .champion-role {
-    font-size: 1rem;
-    color: gray;
-  }
+.champion-role {
+  font-size: 1rem;
+  color: gray;
+}
 
 /* Promo Section */
 .promo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    background-image: url(../img/fondo_arbusto.png);
-    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat;
-    background-color: #0f0f0f;
-    text-align: left;
-    padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-image: url(../img/fondo_arbusto.png);
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  background-color: #0f0f0f;
+  text-align: left;
+  padding: 50px 20px;
 }
 
 .promo-content h2, h1{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .promo-content h2 {
-    font-size: 20px;
-    font-style: italic;
-    margin: 0;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
 }
 
 .promo-content h1 {
-    font-size: 70px;
-    font-style: italic;
-    margin-top: 20px;
-    font-weight: 1000;
+  font-size: 70px;
+  font-style: italic;
+  margin-top: 20px;
+  font-weight: 1000;
 }
 
 .promo-content p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .perfil-img {
-    border-radius: 100%;
-    max-height: 40px;
-    max-width: 40px;
-  
+  border-radius: 100%;
+  max-height: 40px;
+  max-width: 40px;
 }
-

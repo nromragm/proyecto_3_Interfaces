@@ -1,3 +1,4 @@
+/* Estilos para el texto */
 .text {
     display: flex;
     flex-direction: column;
@@ -8,7 +9,7 @@
 
 }
 
-/* texto */
+
 .elige {
     margin-top: 5%;
 }
@@ -72,6 +73,7 @@ h1 {
     padding: 10px;
 }
 
+/* Estilos para el boton */
 .sec-button {
     display: flex;
     justify-content: center;

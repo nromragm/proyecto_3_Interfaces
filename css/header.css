@@ -1,4 +1,4 @@
-/* styles.css */
+/* Estilos del Header */
 * {
     font-family: "Inter", sans-serif;
 }
@@ -37,6 +37,7 @@ body {
     height: 30px;
 }
 
+/* Estilos de la navegacion principal */
 .nav {
     display: flex;
     gap: 20px;
@@ -53,7 +54,7 @@ body {
 
 .nav-link:hover {
     background-color: rgba(128, 128, 128, 0.3); /* Fondo oscuro al hacer hover */
-    color: #C8AA6E; /* Color dorado */
+    color: #C8AA6E;
     font-weight: bold;
 }
 
